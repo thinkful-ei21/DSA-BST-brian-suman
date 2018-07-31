@@ -15,6 +15,6 @@ function height(node){
   let rightHeight = height(node.right);
   return Math.max(leftHeight, rightHeight) + 1;
 }
-console.log(height(binary));
 
-module.exports = height();
+
+module.exports = height;
